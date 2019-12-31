@@ -7,7 +7,7 @@ import ejemplo.aspectos.Cuenta;
 
 import static org.junit.Assert.*;
 
-public class TestCuenta {
+public class TestCuenta2 {
     private Cuenta cuenta;
  
     @Before
