@@ -3,4 +3,4 @@ language: java
 sudo: required
 
 script:
- - mvn package
+ - mvn package 
