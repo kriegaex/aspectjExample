@@ -11,9 +11,5 @@ public class Cuenta {
         balance = balance - valor;
         return true;
     }
-    public static void main(String[] args) {
-    	Cuenta c=new Cuenta();
-    	System.out.println("Hello 2");
-		c.retirar(11);
-	}
+   
 }
