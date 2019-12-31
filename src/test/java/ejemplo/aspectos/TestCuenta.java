@@ -17,14 +17,12 @@ public class TestCuenta {
  
     @Test
     public void dado20yMinimo10_retira5_tieneExito() {
-    	System.out.println("aaaa");
-    	cuenta.retirar(5);
         assertTrue(cuenta.retirar(5));
     }
     
     @Test
-    public void dado20yMinimo10_entoncesRetira15_tieneFallo() {
-        assertFalse(cuenta.retirar(15));
+    public void dado20yMinimo10_entoncesRetira25_tieneFallo() {
+        assertFalse(cuenta.retirar(25));
     }
      
 }
