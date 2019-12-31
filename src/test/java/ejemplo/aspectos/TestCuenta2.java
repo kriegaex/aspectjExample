@@ -24,5 +24,5 @@ public class TestCuenta2 {
     public void dado20yMinimo10_entoncesRetira25_tieneFallo() {
         assertFalse(cuenta.retirar(25));
     }
-     
+      
 }
