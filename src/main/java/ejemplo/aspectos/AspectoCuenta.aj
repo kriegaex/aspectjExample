@@ -10,7 +10,7 @@ public class AspectoCuenta {
    
 
      
-    @Before("call(* Cuenta.*(..))")
+    @Before("call(* ejemplo.aspectos.Cuenta.*(..))")
     public void beforeAdvice() {
     System.out.println("Hello");
     }
