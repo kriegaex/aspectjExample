@@ -1,5 +1,14 @@
-# Compiled class file
-*.class
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+target/
 
 # Log file
 *.log
@@ -18,14 +27,6 @@
 *.zip
 *.tar.gz
 *.rar
-
-# Eclipse files and folders #
-.project
-.classpath
-/target/
-/bin/
-.settings
-
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
